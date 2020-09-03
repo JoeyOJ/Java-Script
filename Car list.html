@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cars Listing</title>
+    </head>
+    <body>
+     <script>
+         //Defining cars brands in an array
+         var carlist = ["toyota","honda","mazda","mitsubushi","tesla","lexus"];
+         function firstlast(array) {
+             var firstcar = carlist[0];
+             var lastcar = carlist[carlist.length-1];
+    
+         } 
+         var Output = {
+			   firstCar : firstCar,
+			   lastCar : lastCar
+			  };
+              return output;
+              
+
+              var display = firstLast(CarList);
+              
+                 // displaying Car_List in the console
+			console.log(display);
+
+                // add new car to Car_List
+            CarList[6] = 'mercedes-benz'; 
+
+               // Logging the newly added car to the Car_List in the console
+            console.log(CarList);
+
+              // Looping through Car_List
+            CarList.forEach(function (value, index) {
+            console.log(index+1, value);
+         });
+     </script>
+
+    </body>
+</html>

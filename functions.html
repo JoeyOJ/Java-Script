@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fuction Challenge</title>
+<script>
+    
+    // Function that changes webpage background color (to blue and back to white)
+    
+    function changeBgColor(color){
+        document.body.style.background = color;
+    }
+    
+</script>
+<style type="text/css">
+    #content{
+        text-align: center;
+        font-family: Helvetica;
+        font-style: bold;
+        font-size: 30px;
+    }
+    #btn1{
+        background-color:darkslategray;
+        color:rgb(52, 8, 73);
+    }
+</style>
+</head>
+<body>
+    <div id="content">
+    <h1>Changing Background Colors with JavaScript</h1>
+   
+    <div>
+        <label>Change webpage background to color darkorchid</label>
+        <button type="button" onclick="changebgColor('darkslategray');" id="btn1">change color</button>
+      
+    </div>
+ <hr style="width: 50%">
+  <div>
+        <label>Restore to its default color </label>
+        <button type="button" onclick="changebgColor('White');">Restore color</button>
+      
+    </div>
+   </div>
+</body>
+</html>
